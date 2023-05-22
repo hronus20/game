@@ -1,0 +1,58 @@
+table,td {
+    border: 1px solid skyblue;
+    border-collapse: collapse;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+  background: url(https://share.america.gov/wp-content/uploads/2018/06/international-waters-freedom-of-navigation-DY8ERP.jpg);
+  background-size: cover;
+}
+
+td {
+  background: white;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+.game {
+    display: flex;
+    gap: 30px;
+}
+.ships {
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.ship {
+    background: repeating-linear-gradient(90deg, grey, grey 30px, #9198e5 30px, #9198e5 32px);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ship1 {
+    width: 30px;
+}
+.ship2 {
+    width: 60px;
+}
+.ship3 {
+    width: 90px;
+}
+.ship4 {
+    width: 120px;
+}
+
+
+.ship-item {
+
+
+}
+
+ 
